@@ -21,4 +21,29 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  border-radius: 1rem;
+
+  /* Remove text selection inside the box */
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+  z-index: 2;
+}
+
+.drag-area {
+  background-color: rgba(127, 255, 212, 0.308);
+  width: calc(25rem + 100px);
+  height: calc(25rem + 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 1rem;
+}
+
+.drag-area p {
+  position: absolute;
+  z-index: 1;
 }
