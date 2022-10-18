@@ -11,9 +11,9 @@ const Box2 = () => {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           whileDrag={{ scale: 0.8 }}
-          borderRadius="1rem"
+          borderradius="1rem"
           drag
-          dragEnd={{ transition: { type: "spring", stiffness: 100 } }}
+          dragend={{ transition: { type: "spring", stiffness: 100 } }}
           dragConstraints={{
             top: -50,
             left: -50,
