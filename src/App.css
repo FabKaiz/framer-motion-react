@@ -32,6 +32,16 @@
   z-index: 2;
 }
 
+.box-item {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #fff;
+  padding: 2rem;
+  list-style: none;
+  margin: 0.5rem;
+  border-radius: 4px;
+}
+
 .drag-area {
   background-color: rgba(127, 255, 212, 0.308);
   width: calc(25rem + 100px);
@@ -46,4 +56,31 @@
 .drag-area p {
   position: absolute;
   z-index: 1;
+}
+
+.reload-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.reload-container button {
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  cursor: pointer;
+  margin-left: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  transition: all 0.1s ease-in-out;
+}
+
+.reload-container button:hover {
+  background-color: aquamarine;
+  color: #fff;
+  border-color: aquamarine;
 }
