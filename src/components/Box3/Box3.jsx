@@ -15,7 +15,7 @@ const Box3 = () => {
       transition: {
         delay: 0.25,
         when: "beforeChildren",
-        staggerChildren: .5,
+        staggerChildren: 0.5,
       },
     },
   };
