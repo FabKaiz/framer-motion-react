@@ -64,7 +64,8 @@
   flex-direction: column;
 }
 
-.reload-container button {
+.reload-container button,
+.useAnimate_btn {
   width: 10rem;
   height: 3rem;
   border: none;
@@ -79,8 +80,18 @@
   transition: all 0.1s ease-in-out;
 }
 
-.reload-container button:hover {
+.reload-container button:hover,
+.useAnimate_btn:hover {
   background-color: aquamarine;
   color: #fff;
   border-color: aquamarine;
+}
+
+.useAnimate_btn {
+  margin-bottom: 1rem;
+}
+
+.useAnimation_title {
+  text-align: center;
+  margin-bottom: 1rem;
 }
