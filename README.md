@@ -1,4 +1,4 @@
-# React custom loader
+# Animation with Framer Motion and React
 ### [Result here](https://framer-motion-react-fabkaiz.netlify.app/)
 
 #### What i used :
